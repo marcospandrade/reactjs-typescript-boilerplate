@@ -1,0 +1,22 @@
+.main {
+  max-width: 1080px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 2rem;
+  margin: 0px auto;
+
+  h1 {
+    color: var(--primary);
+    margin-bottom: 4rem;
+  }
+}
+
+.containerButton {
+  display: flex;
+  justify-content: flex-end;
+
+  .button {
+    background-color: var(--danger) !important;
+  }
+}

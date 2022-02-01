@@ -1,0 +1,43 @@
+.containerInputUpload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  .contentInputUpload {
+    padding: 2rem;
+    background: var(--gray-50) !important;
+    width: 100% !important;
+  }
+
+  .inputUploadFile {
+    display: none;
+  }
+
+  .containerGridPaper {
+    display: flex;
+    align-items: center;
+
+    .paragrath1 {
+      color: var(--primary);
+      font-weight: 700;
+      font-size: 16px;
+    }
+
+    .paperRight {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+    }
+
+    .pargrathDetailFile {
+      color: var(--primary);
+      font-weight: 400;
+      font-size: 14px;
+
+      span {
+        font-style: italic;
+      }
+    }
+  }
+}

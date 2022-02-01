@@ -1,0 +1,26 @@
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 2rem;
+
+  background: var(--primary);
+}
+
+.containerLogin {
+  max-width: 25rem !important;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  border-radius: 1rem !important;
+}
+
+.msgTitle {
+  color: var(--primary);
+  text-align: center;
+}
+
+.logo {
+  max-height: 10rem;
+}
